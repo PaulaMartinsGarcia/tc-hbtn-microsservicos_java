@@ -12,7 +12,7 @@ public class MessageResource {
 		return "BEM VINDO A AULA DE MICROSSERVIÇO USANDO SPRING BOOT !!!";
 	}
 	
-	@GetMapping(value = "/login")
+	@GetMapping("/login")
 	public String login(String user, String password) {
 		String message = null;
 		String usuario = "Paula";
