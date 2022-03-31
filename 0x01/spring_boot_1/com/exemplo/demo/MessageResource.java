@@ -15,7 +15,7 @@ public class MessageResource {
 	@GetMapping(value = "/login")
 	public String login(String user, String password) {
 		String message = null;
-		String usuario = "";
+		String usuario = "Paula";
 		String senha = "123";
 				
 		if(usuario.isEmpty() || senha.isEmpty()) {
