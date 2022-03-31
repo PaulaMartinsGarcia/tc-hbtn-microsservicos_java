@@ -1,0 +1,17 @@
+﻿O que é Spring Boot Framework?
+Spring Boot é um projeto pertencente ao ecossistema Spring que facilita no desenvolvimento de aplicações standalones (microsserviços)
+Quais são os benefícios e recursos que Spring Boot fornece?
+Leve: o Spring é leve no uso de recursos, com o Spring Framework básico custando apenas 2 MB de armazenamento.
+Escalável: a interface de gerenciamento de transações do Spring pode escalar tanto para uma transação local em um único banco de dados até transações globais usando o módulo JTA
+Tratamento de exceções: o tratamento de exceções é fácil graças aos abundantes recursos da API para lidar com exceções em cada módulo.
+Arquitetura em camadas: permite que você use as partes do programa necessárias e descarte o resto.
+POJO habilitado: Plain Old Java Object Programming permite teste e integração contínuos.
+Código aberto: gratuito para todos e sem dependência de fornecedor.
+Inversão de controle (IOC): Obtém acoplamento fraco via IOC, permitindo que os objetos forneçam suas dependências a outros objetos, em vez de objetos dependentes.
+Orientado a Aspectos (AOP): O Spring oferece suporte à programação orientada a Aspectos, um paradigma que separa a lógica de negócios do aplicativo dos serviços do sistema.
+Como é feita a adição de novas dependências (JPA, Hibernate, etc…) ?
+Adicionando as dependências ao POM do projeto. Nele podemos inserir as dependências do projeto, bem como os plugins que serão instalados.
+Na sua opinião, qual melhor IDE para utilizar para trabalhar como Spring Boot: Spring Tools Suites, IntelliJ IDEA, Eclipse ou NetBeans ?
+Na minha opinião a melhor IDE para trabalhar com Spring Boot é o STS, mas se temos também a opção de instalar o Spring Tools no Eclipse e termos as mesmas funcionalidades do STS.
+O que é Spring Initializer?
+O Spring possui uma página chamada spring initializr, nesta página podemos passar as informações do projeto como a versão do Spring Boot, GroupID, ArtifactID e os starters. Assim, o spring initializr gera um projeto base para que já possamos começar o desenvolvimento das regras de negócio da aplicação.
